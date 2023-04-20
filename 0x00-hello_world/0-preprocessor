@@ -2,3 +2,7 @@
 gcc -E $CFILE -o c
 #!/bin/bash
 gcc -E $CFILE -o c
+#!/bin/bash
+gcc -E $CFILE -O 
+#!/bin/bash
+gcc -E $CFILE -o c
