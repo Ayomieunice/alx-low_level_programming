@@ -1,23 +1,17 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
- * Description: prints letters of alphabets
+ * Description :prints all lowercase letters of alphabets
  * Return: 0
  */
 
 int main(void)
 {
-	char c;
-	char d;
+	char i;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(c);
-	}
-	for (d = 'A'; d <= 'Z'; d++)
-	{
-		putchar(d);
+		putchar(i);
 	}
 	putchar('\n');
 
