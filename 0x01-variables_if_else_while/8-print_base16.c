@@ -3,7 +3,7 @@
 /**
  * main - Print numbers 0 to 9
  * followed by lowercase letter a to f
- *
+ * Return: 0
  */
 
 int main(void)
