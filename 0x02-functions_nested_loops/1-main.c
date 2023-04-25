@@ -1,20 +1,19 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Description: print letters of the alphabet
- * Return: Always 0.
+ * print_alphabet - prints all lowercase letters of alphabets
+ * Return: void
  */
 
-int main(void)
-{
-	char c;
+void print_alphabet(void)
 
-	for (c = 'a'; c <='z'; c++)
+{
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+
 	{
-		putchar ('c');
+	_putchar (i);
 	}
-	putchar('\n');
-	
-	return (0);
+	_putchar('\n');
 }
