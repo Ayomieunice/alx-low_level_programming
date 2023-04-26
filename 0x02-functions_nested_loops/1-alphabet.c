@@ -1,18 +1,19 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
- * print_alphabet - Make the alphabet
- * Return: void
+ * print_alphabet - Entry point
+ * Return: 0
  */
 
 void print_alphabet(void)
-
 {
-	char C;
+	char c = 'a';
 
-	for (c = 'a'; c <= 'z'; c++)
+	while (c <= 'z')
 	{
-	_putchar(c);
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
 }
